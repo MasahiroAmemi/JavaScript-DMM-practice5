@@ -20,4 +20,16 @@ for(変数 in オブジェクト) {
   ...
 }
 
+//for...in文の記述
+const fruit = {orange:170, apple:90, lemon:110};
+for(let i in fruit) {
+  console.log("fruit." + i + " = " + fruit[i]);
+}
+console.log("end");
+
+//出力結果
+fruit.orange = 170
+fruit.apple = 90
+fruit.lemon = 110
+encodeURI
 
