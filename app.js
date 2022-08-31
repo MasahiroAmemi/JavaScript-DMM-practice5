@@ -33,3 +33,22 @@ fruit.apple = 90
 fruit.lemon = 110
 end
 
+//while文での繰り返し
+
+//while文の記述
+while(条件) {
+  処理
+}
+
+//while文の記述　例
+let max = 100;
+let num = 1;
+let count = 0;
+
+while(num < max) {
+  num = num * 2;
+  count++;
+}
+
+console.log("2を掛け続けて" + max + "を超えるのに必要だった回数は" + count + "回です");
+//2を掛け続けて100を超えるのに必要だった回数は7回です
