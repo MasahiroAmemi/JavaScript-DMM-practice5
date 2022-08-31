@@ -31,5 +31,5 @@ console.log("end");
 fruit.orange = 170
 fruit.apple = 90
 fruit.lemon = 110
-encodeURI
+end
 
